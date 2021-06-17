@@ -1,0 +1,712 @@
+/* ------------------------------------------- */
+
+
+/* General styling for the default containers */
+
+
+/* ------------------------------------------ */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Didact Gothic', sans-serif; */
+}
+
+body {
+    /* margin: 0.25rem; */
+    /* background-color: blanchedalmond; */
+}
+
+
+/* --------------------------------- */
+
+
+/* styling of h tags and p tags etc. */
+
+
+/* --------------------------------- */
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+figcaption {
+    font-size: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.fab {
+    font-size: 2.5rem;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* styling for the header, main sections and footer */
+
+
+/* ------------------------------------------------ */
+
+header {
+    height: 100vh;
+    background-color: rgb(185, 129, 129);
+    /* padding-top: 1em; */
+    /* border: 2px black solid; */
+    /* background-image: url(../images/header-background-image-white.png); */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+nav {
+    height: 7%;
+    background-color: linen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 2em; */
+}
+
+
+/* -------------------------------------------- */
+
+.suppliers-sec {
+    height: 100vh;
+    background-color: lightgreen;
+    border: 2px black solid;
+}
+
+.delicacies-sec {
+    /* this section's height was quite the bother - to be adjusted */
+    height: auto;
+    background-color: lightslategrey;
+    border: 2px black solid;
+}
+
+.packages-sec {
+    height: 100vh;
+    background-color: lightsalmon;
+    border: 2px black solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-services-sec {
+    height: 100vh;
+    background-color: lightyellow;
+    border: 2px black solid;
+    line-height: 4em;
+}
+
+.apps-sec {
+    height: 50vh;
+    background-color: lightskyblue;
+    border: 2px black solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 4em;
+}
+
+footer {
+    height: 50vh;
+    background-color: darkslategray;
+    border: 2px black solid;
+    color: white;
+}
+
+
+/* --------------- */
+
+
+/* styling of divs and figs*/
+
+
+/* --------------- */
+
+
+/* for the header section */
+
+
+/* .logo-div {
+    width: auto;
+    height: auto;
+    background-color: blue;
+} */
+
+
+/*
+.welcome-msg-div {
+    text-align: center;
+    background-color: teal;
+}
+
+.nav-options-div {
+    display: flex;
+    justify-content: space-around;
+    width: 12em;
+    background-color: violet;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.sign-in-div {
+    height: 3em;
+    width: 8em;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-lang-div {
+    height: 1.4em;
+    width: 1.8em;
+    /* background-color: burlywood; */
+
+
+/* 
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+
+}
+.welcome-txt-div {
+    text-align: center;
+    margin-top: 3em;
+    background-color: yellow;
+    line-height: 4em;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    line-height: 5em;
+}
+.welcome-input-div {
+    text-align: center;
+    margin-top: 6em;
+    background-color: wheat;
+}
+select#location {
+    width: 100%;
+    height: 3.5em;
+    margin-right: 2em;
+    border-radius: 0px;
+    font-size: 1rem;
+    padding-left: 1.5em;
+    color: dimgray;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    border: 0.25px black solid;
+    outline: none;
+}
+*/
+
+*/
+/* button#header-btn {
+    height: 3.5em;
+    border-radius: 0px;
+    width: 13em;
+    padding: 0;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+} */
+
+.logo-div p {
+    padding-left: 1em;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    color: black;
+}
+
+.sign-in-button-and-lang-div {
+    width: 13em;
+    height: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in-button-and-lang-div img {
+    width: 2em;
+    height: 1.2em;
+    border: 0.5px solid black;
+}
+
+.sign-in-button-and-lang-div button {
+    height: 2.5em;
+    width: 7.5em;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.header-text-div {
+    height: 93%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 12em;
+}
+
+.header-text-message-div {
+    margin-bottom: 4em;
+    line-height: 5em;
+}
+
+.header-select-and-button-div {
+    display: flex;
+    background-color: turquoise;
+    justify-content: space-around;
+    width: auto;
+}
+
+.address-select-bar-div select {
+    width: 40em;
+    height: 3.5em;
+    margin-right: 2em;
+    border-radius: 0px;
+    font-size: 1rem;
+    padding-left: 1.5em;
+    color: dimgray;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    border: 0.25px black solid;
+    outline: none;
+}
+
+.address-button-div button {
+    width: 10em;
+    height: 3.5em;
+    border-radius: 0px;
+    padding: 0;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------------------------- */
+
+
+/* for the second page - maps */
+
+
+/* -------------------------- */
+
+.suppliers-header-div,
+.delicacies-header-div {
+    text-align: center;
+    margin-top: 3.5em;
+    background-color: palevioletred;
+}
+
+.suppliers-maps-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5.5em;
+    background-color: tomato;
+    text-align: center;
+}
+
+.map-one-fig,
+.map-two-fig {
+    width: 25em;
+    height: 25em;
+    background-color: lightsalmon;
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    /* object-fit: cover; */
+}
+
+.map-one-fig img,
+.map-two-fig img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin-bottom: 1em;
+}
+
+
+/* ----------------------------- */
+
+
+/* for the 3rd page - delicacies */
+
+
+/* ----------------------------- */
+
+.delicacies-meals-div {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.delicacy-meal-div {
+    width: 20em;
+    height: 20em;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.delicacy-meal-img-div {
+    width: 12em;
+    height: 12em;
+    background-color: navajowhite;
+    border: 1px solid black;
+}
+
+.delicacy-meal-info-div {
+    margin-top: 1em;
+    text-align: center;
+    line-height: 1.25em;
+    background-color: steelblue;
+}
+
+.delicacy-meal-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* -------------------------------------- */
+
+
+/* for the fourth page - packages offered */
+
+
+/* -------------------------------------- */
+
+.packages-header-div {
+    width: 50%;
+    background-color: salmon;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.packages-types-div {
+    width: 40%;
+    height: 100%;
+    background-color: sienna;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.packages-fresh-type-div,
+.packages-okay-type-div {
+    width: 35em;
+    height: 14em;
+    background-color: steelblue;
+    display: flex;
+}
+
+.packages-fresh-type-icon,
+.packages-okay-type-icon {
+    width: 40%;
+    height: 100%;
+}
+
+.packages-okay-type-msg,
+.packages-fresh-type-msg {
+    width: 60%;
+    height: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5em;
+    text-align: center;
+}
+
+.packages-fresh-type-msg p,
+.packages-okay-type-msg p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.packages-fresh-type-icon img,
+.packages-okay-type-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* ----------------------------------- */
+
+
+/* for the fifth page - jobs and apps  */
+
+
+/* ----------------------------------- */
+
+.ask-for-drivers-div {
+    height: 50%;
+    background-color: turquoise;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ask-for-services-div {
+    background-color: thistle;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.for-driver-icon-and-header-div {
+    display: flex;
+    background-color: lightcoral;
+    align-items: center;
+}
+
+.for-services-icon-and-messages-div {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lawngreen;
+    align-items: center;
+}
+
+.for-driver-icon-div,
+.for-know-about-icon-div {
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 10em;
+    height: 10em;
+    background-color: rgba(255, 105, 180, 0.144);
+}
+
+.app-icon-div,
+.mobile-app-options-div {
+    width: 15em;
+    height: 15em;
+    background-color: lightgreen;
+}
+
+.app-icon-div {
+    margin-left: 5em;
+}
+
+.mobile-app-options-div {
+    margin-right: 4em;
+}
+
+.appstore-img-div,
+.google-play-img-div {
+    width: 14em;
+    height: 4em;
+    margin-top: 2.1em;
+    margin-left: 0.5em;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+.for-driver-icon-div img,
+.for-know-about-icon-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.ask-for-drivers-link-div a,
+.ask-for-services-link-div a {
+    font-size: 1.8rem;
+}
+
+.app-icon-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.appstore-img-div img,
+.google-play-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* ------------------------------------ */
+
+
+/* for the footer section - up and down */
+
+
+/* ------------------------------------ */
+
+.footer-up-deck-div {
+    height: 85%;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.footer-contacts-and-social-media-div {
+    background-color: rgb(12, 37, 12);
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.whatsapp-contact-div {
+    width: 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other-social-apps-div {
+    width: 12em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.android-app-link-div,
+.iphone-app-link-div {
+    width: 10em;
+    height: 3em;
+    background-color: darkgoldenrod;
+}
+
+.footer-other-options-div {
+    background-color: cadetblue;
+    width: 33.3%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.footer-supports-div {
+    background-color: rgb(28, 44, 44);
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.mtn-mobile-money-div,
+.orange-mobile-money-div {
+    width: 11.8em;
+    height: 5.8em;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+
+.footer-down-deck-div {
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-down-deck-options-div {
+    margin-left: 3em;
+}
+
+.copyright-text-div {
+    margin-right: 3em;
+}
+
+.android-app-link-div img,
+.iphone-app-link-div img {
+    height: 100%;
+    /* width: 100%; */
+    object-fit: contain;
+}
+
+.mtn-mobile-money-div img,
+.orange-mobile-money-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.footer-down-deck-options-div a {
+    padding-left: 3em;
+}
+
+
+/* ------------- */
+
+
+/* media queries */
+
+
+/* ------------- */
+
+@media only screen and (max-width: 1291px) {
+    .for-screen-1379px {
+        display: none;
+    }
+}

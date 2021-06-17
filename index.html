@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallmark Deliveries</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@500&family=Roboto:wght@100&family=Sacramento&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ee2a12ae6a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-div">
+                <a href="#">
+                    <p>Hallmark Deliveries ;)</p>
+                </a>
+            </div>
+            <div class="sign-in-button-and-lang-div">
+                <button type="submit">Sign in</button>
+                <a href="#"><img src="/images/french-lang-flag.svg" alt="a pic of the french flag for language" width="20px" height="20px"></a>
+            </div>
+        </nav>
+        <div class="header-text-div">
+            <div class="header-text-message-div">
+                <h1>Help us, help you<br> deliver your food<br> right to your doorstep</h1>
+            </div>
+            <div class="header-select-and-button-div">
+                <div class="address-select-bar-div">
+                    <label for="location"></label>
+                    <select name="location" id="location" placeholder="Please choose your town here...">
+                    <option value="" disabled selected hidden>Please choose your location here...</option>
+                    <option value="Buea">Buea</option>
+                    <option value="Douala">Douala</option>
+                </select>
+                </div>
+                <div class="address-button-div">
+                    <button id="header-btn" type="submit">Find your food</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- <header>
+        <nav>
+            <div class="logo-div">
+                <p>Hallmark Deliveries ;)</p>
+            </div>
+            <div class="nav-options-div">
+                <div class="sign-in-div">
+                    <button type="submit">Sign in</button>
+                </div>
+                <div class="change-lang-div">
+                    <img src="/images/french-lang-flag.svg" alt="a pic of the french flag for language">
+                </div>
+            </div>
+        </nav>
+        <div class="header-text-div">
+            <div class="welcome-txt-div">
+                <h1>Help us, help you<br> deliver your food<br> right to your doorstep</h1>
+            </div>
+            <div class="welcome-input-div">
+
+
+            </div>
+        </div>
+    </header> -->
+
+
+    <main>
+        <section class="suppliers-sec">
+            <div class="suppliers-header-div">
+                <h2>Food suppliers we have all ready <br> for you in the towns of Buea and Douala</h2>
+            </div>
+            <div class="suppliers-maps-div">
+                <figure class="map-one-fig">
+                    <img src="/images/buea-map.jpeg" alt="a map of buea">
+                    <figcaption>Our partners in Buea</figcaption>
+                </figure>
+                <figure class="map-two-fig">
+                    <img src="/images/douala-map.png" alt="a map of douala">
+                    <figcaption>Our partners is Douala</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="delicacies-sec">
+            <div class="delicacies-header-div">
+                <h2>Have access to the most ordered delicacies <br> and if your food is ready!</h2>
+            </div>
+            <div class="delicacies-meals-div">
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div">
+                        <img src="/images/undraw_breakfast_psiw.svg" alt="#">
+                    </div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 1</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hrs ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 2</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 3</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 4</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 5</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 6</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div for-screen-1379px">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 7</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+                <div class="delicacy-meal-div for-screen-1379px">
+                    <div class="delicacy-meal-img-div"><img src="/images/undraw_breakfast_psiw.svg" alt="#"></div>
+                    <div class="delicacy-meal-info-div">
+                        <p><strong>Meal name: </strong>Kati Kati 8</p>
+                        <p><strong>Kitchen: </strong>Jam-Rock</p>
+                        <p><strong>Available: </strong>Yes (since <span class="meal-prep-time">2</span> hours ago)</p>
+                        <p><strong>Meal cost: </strong>FCFA 2000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="packages-sec">
+            <div class="packages-header-div">
+                <h2>Types of delivery services, <br> we have prepared for you</h2>
+                <br><br><br>
+                <p>..per trip not per meal..</p>
+            </div>
+            <div class="packages-types-div">
+                <div class="packages-fresh-type-div">
+                    <div class="packages-fresh-type-icon">
+                        <img src="/images/undraw_fast_loading_0lbh.svg" alt="a pic of fast loading process">
+                    </div>
+                    <div class="packages-fresh-type-msg">
+                        <p>FRESH <br> FCFA 3000</p>
+                    </div>
+                </div>
+                <div class="packages-okay-type-div">
+                    <div class="packages-okay-type-icon">
+                        <img src="/images/undraw_eating_together_tjhx.svg" alt="a pic of a couple sharing a meal">
+                    </div>
+                    <div class="packages-okay-type-msg">
+                        <p>OKAY <br> FCFA 2000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="other-services-sec">
+
+            <div class="ask-for-drivers-div">
+                <div class="for-driver-icon-and-header-div">
+                    <div class="for-driver-icon-div">
+                        <img src="/images/undraw_On_the_way_re_swjt.svg" alt="a pic of girl driving a transport bike">
+                    </div>
+                    <div class="for-driver-header-div">
+                        <h2>Think you can help us <br> with deliveries?</h2>
+                    </div>
+                </div>
+                <div class="ask-for-drivers-link-div">
+                    <a href="#">Get to know more!</a>
+                </div>
+            </div>
+
+            <div class="ask-for-services-div">
+                <div class="for-services-icon-and-messages-div">
+                    <div class="for-know-about-icon-div">
+                        <img src="/images/undraw_researching_22gp.svg" alt="a pic of a lady researching on her laptop">
+                    </div>
+                    <div class="for-know-about-icon-header-div">
+                        <h2>Wish to know more <br> about the services <br> we can provide for you?</h2>
+                    </div>
+                </div>
+                <div class="ask-for-services-link-div">
+                    <a href="#">Get to know more!</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="apps-sec">
+            <div class="app-icon-div">
+                <img src="/images/undraw_Mobile_application_mr4r.svg" alt="a guy near an enlarged pic of phone apps">
+            </div>
+            <div class="app-message-div">
+                <h2>We could also provide you <br> services on mobile </h2>
+            </div>
+            <div class="mobile-app-options-div">
+                <div class="appstore-img-div">
+                    <a href=""><img src="/images/appstore-img.svg" alt=""></a>
+                </div>
+                <div class="google-play-img-div">
+                    <img src="/images/google-play.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-up-deck-div">
+            <div class="footer-contacts-and-social-media-div">
+                <div class="header-social-div">
+                    <a href="#">Please contact us on</a>
+                </div>
+                <div class="whatsapp-contact-div">
+                    <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+                    <p>+237-670687978</p>
+                </div>
+                <div class="other-social-apps-div">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </div>
+                <div class="android-app-link-div">
+                    <a href="#"><img src="/images/appstore-img.svg" alt="#"></a>
+                </div>
+                <div class="iphone-app-link-div">
+                    <a href="#"><img src="/images/google-play.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-other-options-div">
+                <a href="#">Feedback/ suggestions</a>
+                <a href="#">About us</a>
+                <a href="#">Add your kitchen?</a>
+            </div>
+            <div class="footer-supports-div">
+                <div class="footer-supports-header-div">
+                    <a href="#">We support</a>
+                </div>
+                <div class="mtn-mobile-money-div">
+                    <img src="/images/mobile-money 2.jpeg" alt="">
+                </div>
+                <div class="orange-mobile-money-div">
+                    <img src="/images/mobile-money 3.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-down-deck-div">
+            <div class="footer-down-deck-options-div">
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="copyright-text-div">
+                <p>Hallmark Deliveries Inc.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
